@@ -1,0 +1,107 @@
+.tableDiv {
+  display: table;
+}
+.tableDiv {
+  position: relative;
+  text-align: left;
+}
+.tableDiv :where(th, td) {
+  white-space: nowrap;
+  padding: 1rem /* 16px */;
+  vertical-align: middle;
+}
+.tableDiv tbody tr td:last-child,
+.tableDiv thead tr th:last-child {
+  text-align: center;
+}
+.tableDiv tr.active th,
+.tableDiv tr.active td,
+.tableDiv tr.active:nth-child(even) th,
+.tableDiv tr.active:nth-child(even) td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv tr.active th,
+.tableDiv tr.active td,
+.tableDiv tr.active:nth-child(even) th,
+.tableDiv tr.active:nth-child(even) td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv tr.active th,
+.tableDiv tr.active td,
+.tableDiv tr.active:nth-child(even) th,
+.tableDiv tr.active:nth-child(even) td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv tr.active th,
+.tableDiv tr.active td,
+.tableDiv tr.active:nth-child(even) th,
+.tableDiv tr.active:nth-child(even) td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv tr.hover:hover th,
+.tableDiv tr.hover:hover td,
+.tableDiv tr.hover:nth-child(even):hover th,
+.tableDiv tr.hover:nth-child(even):hover td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv tr.hover:hover th,
+.tableDiv tr.hover:hover td,
+.tableDiv tr.hover:nth-child(even):hover th,
+.tableDiv tr.hover:nth-child(even):hover td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv tr.hover:hover th,
+.tableDiv tr.hover:hover td,
+.tableDiv tr.hover:nth-child(even):hover th,
+.tableDiv tr.hover:nth-child(even):hover td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv tr.hover:hover th,
+.tableDiv tr.hover:hover td,
+.tableDiv tr.hover:nth-child(even):hover th,
+.tableDiv tr.hover:nth-child(even):hover td {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+}
+.tableDiv:where(:not(.tableDiv-zebra))
+  :where(thead, tbody, tfoot)
+  :where(tr:not(:last-child) :where(th, td)) {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--b2, var(--b1)) / var(--tw-border-opacity));
+}
+.tableDiv :where(thead, tfoot) :where(th, td) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.tableDiv :where(tbody th, tbody td) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b1) / var(--tw-bg-opacity));
+}
+:where(.tableDiv *:first-child)
+  :where(*:first-child)
+  :where(th, td):first-child {
+  border-top-left-radius: 0.5rem /* 8px */;
+}
+:where(.tableDiv *:first-child)
+  :where(*:first-child)
+  :where(th, td):last-child {
+  border-top-right-radius: 0.5rem /* 8px */;
+}
+:where(.tableDiv *:last-child) :where(*:last-child) :where(th, td):first-child {
+  border-bottom-left-radius: 0.5rem /* 8px */;
+}
+:where(.tableDiv *:last-child) :where(*:last-child) :where(th, td):last-child {
+  border-bottom-right-radius: 0.5rem /* 8px */;
+}
